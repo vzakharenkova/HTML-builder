@@ -1,5 +1,5 @@
 const fs = require('fs');
-const fsProm = fs.promises;
+const fsProm = require('fs').promises;
 const path = require('path');
 const pathCSS = path.join(__dirname, '/styles');
 const resultCSSPath = path.join(__dirname, '/project-dist', 'bundle.css');
